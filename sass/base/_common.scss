@@ -1,7 +1,7 @@
 body {
-    font-family: var(--primary-font-family);
-    background-color: var(--fifth-bcg-color);
-    color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  background-color: var(--fifth-bcg-color);
+  color: var(--primary-text-color);
 }
 
 h1,
@@ -11,27 +11,27 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 ul,
 ol {
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
