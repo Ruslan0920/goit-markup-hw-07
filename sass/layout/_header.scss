@@ -14,12 +14,12 @@
   display: flex;
 }
 
-.menu-list {
+.menu {
   display: flex;
   align-items: center;
 }
 
-.nav-link-item:not(:last-child) {
+.menu__link-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -27,7 +27,7 @@
   margin-right: 50px;
 }
 
-.nav-list-link {
+.menu__list-link {
   position: relative;
   font-family: var(--primary-font-family);
   font-weight: 500;
@@ -43,7 +43,7 @@
   }
 }
 
-.current {
+.menu__list-link--current {
   color: var(--third-text-color);
 
   &::after {
