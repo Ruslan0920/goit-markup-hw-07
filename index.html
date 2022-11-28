@@ -69,79 +69,110 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div class="container">
-          <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="modal-btn" type="button" data-modal-open>
+        <div class="container hero-container">
+          <h1 class="hero-container__main-title">
+            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+          </h1>
+          <button
+            class="hero-container__modal-btn"
+            type="button"
+            data-modal-open
+          >
             Замовити послугу
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal-window">
-              <button type="button" class="close-modal-button" data-modal-close>
-                <svg class="icon" width="16" height="16">
+              <button
+                type="button"
+                class="modal-window__close-modal-button"
+                data-modal-close
+              >
+                <svg class="modal-window__icon" width="16" height="16">
                   <use href="./img/sprite.svg#icon-close"></use>
                 </svg>
               </button>
               <form class="contact-form">
-                <b class="contact-form-title">
+                <b class="contact-form__title">
                   Залиште свої дані, ми вам передзвонимо
                 </b>
                 <div class="user-data">
-                  <label class="form-label" for="user-name">Ім'я</label>
+                  <label class="user-data__form-label" for="user-name"
+                    >Ім'я</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="text"
                     name="user-contacts-name"
                     id="user-name"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-name"></use>
                   </svg>
                 </div>
                 <div class="user-data">
-                  <label class="form-label" for="user-tel">Телефон</label>
+                  <label class="user-data__form-label" for="user-tel"
+                    >Телефон</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="tel"
                     name="user-contacts-tel"
                     id="user-tel"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-tel"></use>
                   </svg>
                 </div>
                 <div class="user-data">
-                  <label class="form-label" for="user-email">Пошта</label>
+                  <label class="user-data__form-label" for="user-email"
+                    >Пошта</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="email"
                     name="user-contacts-email"
                     id="user-email"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-mail"></use>
                   </svg>
                 </div>
                 <div class="comment">
-                  <label class="form-label" for="user-message">Коментар</label>
+                  <label class="comment__form-label" for="user-message"
+                    >Коментар</label
+                  >
                   <textarea
-                    class="text-user-message"
+                    class="comment__text-user-message"
                     name="user-message"
                     id="user-message"
                     placeholder="Введіть текст"
                   ></textarea>
                 </div>
 
-                <label class="contact-form-label">
+                <label class="policy-label">
                   <input
                     type="checkbox"
                     name="consent"
-                    class="input-policy-checkbox visually-hidden"
+                    class="policy-label__input-checkbox visually-hidden"
                   />
-                  <svg class="icon-policy-checkbox" width="16" height="15">
-                    <use
-                      class="icon-checkbox"
-                      href="./img/icons.svg#icon-check"
-                    ></use>
+                  <svg
+                    class="policy-label__icon-checkbox"
+                    width="16"
+                    height="15"
+                  >
+                    <use class="" href="./img/icons.svg#icon-check"></use>
                   </svg>
                   Погоджуюся з розсилкою та приймаю&nbsp;<a
                     class="contract"
