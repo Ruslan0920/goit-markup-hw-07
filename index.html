@@ -69,79 +69,110 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div class="container">
-          <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="modal-btn" type="button" data-modal-open>
+        <div class="container hero-container">
+          <h1 class="hero-container__main-title">
+            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+          </h1>
+          <button
+            class="hero-container__modal-btn"
+            type="button"
+            data-modal-open
+          >
             Замовити послугу
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal-window">
-              <button type="button" class="close-modal-button" data-modal-close>
-                <svg class="icon" width="16" height="16">
+              <button
+                type="button"
+                class="modal-window__close-modal-button"
+                data-modal-close
+              >
+                <svg class="modal-window__icon" width="16" height="16">
                   <use href="./img/sprite.svg#icon-close"></use>
                 </svg>
               </button>
               <form class="contact-form">
-                <b class="contact-form-title">
+                <b class="contact-form__title">
                   Залиште свої дані, ми вам передзвонимо
                 </b>
                 <div class="user-data">
-                  <label class="form-label" for="user-name">Ім'я</label>
+                  <label class="user-data__form-label" for="user-name"
+                    >Ім'я</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="text"
                     name="user-contacts-name"
                     id="user-name"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-name"></use>
                   </svg>
                 </div>
                 <div class="user-data">
-                  <label class="form-label" for="user-tel">Телефон</label>
+                  <label class="user-data__form-label" for="user-tel"
+                    >Телефон</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="tel"
                     name="user-contacts-tel"
                     id="user-tel"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-tel"></use>
                   </svg>
                 </div>
                 <div class="user-data">
-                  <label class="form-label" for="user-email">Пошта</label>
+                  <label class="user-data__form-label" for="user-email"
+                    >Пошта</label
+                  >
                   <input
-                    class="form-input"
+                    class="user-data__form-input"
                     type="email"
                     name="user-contacts-email"
                     id="user-email"
                   />
-                  <svg class="icon-contact-form" width="12" height="12">
+                  <svg
+                    class="user-data__icon-contact-form"
+                    width="12"
+                    height="12"
+                  >
                     <use href="./img/icons.svg#icon-mail"></use>
                   </svg>
                 </div>
                 <div class="comment">
-                  <label class="form-label" for="user-message">Коментар</label>
+                  <label class="comment__form-label" for="user-message"
+                    >Коментар</label
+                  >
                   <textarea
-                    class="text-user-message"
+                    class="comment__text-user-message"
                     name="user-message"
                     id="user-message"
                     placeholder="Введіть текст"
                   ></textarea>
                 </div>
 
-                <label class="contact-form-label">
+                <label class="policy-label">
                   <input
                     type="checkbox"
                     name="consent"
-                    class="input-policy-checkbox visually-hidden"
+                    class="policy-label__input-checkbox visually-hidden"
                   />
-                  <svg class="icon-policy-checkbox" width="16" height="15">
-                    <use
-                      class="icon-checkbox"
-                      href="./img/icons.svg#icon-check"
-                    ></use>
+                  <svg
+                    class="policy-label__icon--checkbox"
+                    width="16"
+                    height="15"
+                  >
+                    <use class="" href="./img/icons.svg#icon-check"></use>
                   </svg>
                   Погоджуюся з розсилкою та приймаю&nbsp;<a
                     class="contract"
@@ -160,50 +191,50 @@
       <section class="features section">
         <div class="container features-container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="festures-items">
-            <li class="festures-list">
-              <div class="box">
-                <svg class="icon" width="70" height="70">
+          <ul class="features-items">
+            <li class="features-items__list">
+              <div class="features-items__box">
+                <svg class="features-items__icon" width="70" height="70">
                   <use href="./img/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-titles">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="features-description">
+              <h3 class="features-items__titles">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-items__description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="festures-list">
-              <div class="box">
-                <svg class="icon" width="70" height="70">
+            <li class="features-items__list">
+              <div class="features-items__box">
+                <svg class="features-items__icon" width="70" height="70">
                   <use href="./img/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-titles">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="features-description">
+              <h3 class="features-items__titles">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-items__description">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="festures-list">
-              <div class="box">
-                <svg class="icon" width="70" height="70">
+            <li class="features-items__list">
+              <div class="features-items__box">
+                <svg class="features-items__icon" width="70" height="70">
                   <use href="./img/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-titles">ПЛАНУВАННЯ</h3>
-              <p class="features-description">
+              <h3 class="features-items__titles">ПЛАНУВАННЯ</h3>
+              <p class="features-items__description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="festures-list">
-              <div class="box">
-                <svg class="icon" width="70" height="70">
+            <li class="features-items__list">
+              <div class="features-items__box">
+                <svg class="features-items__icon" width="70" height="70">
                   <use href="./img/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-titles">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="features-description">
+              <h3 class="features-items__titles">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-items__description">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -217,32 +248,32 @@
         <div class="container">
           <h2 class="secondary-titles">Чим ми займаємося</h2>
           <ul class="work-items">
-            <li class="work-list">
+            <li class="work-items__list">
               <img
                 src="./img/job1.jpg"
                 alt="руки на клавіатурі"
                 width="370"
                 height="295"
               />
-              <p class="work-caption">Десктопні додатки</p>
+              <p class="work-items__caption">Десктопні додатки</p>
             </li>
-            <li class="work-list">
+            <li class="work-items__list">
               <img
                 src="./img/job2.jpg"
                 alt="руки на клавіатурі ноутбука"
                 width="370"
                 height="295"
               />
-              <p class="work-caption">Мобільні додатки</p>
+              <p class="work-items__caption">Мобільні додатки</p>
             </li>
-            <li class="work-list">
+            <li class="work-items__list">
               <img
                 src="./img/job3.jpg"
                 alt="планшет в руках"
                 width="370"
                 height="295"
               />
-              <p class="work-caption">Дизайнерські рішення</p>
+              <p class="work-items__caption">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
