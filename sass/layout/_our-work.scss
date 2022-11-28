@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.work-list {
+.work-items__list {
   position: relative;
   margin-right: 30px;
   flex-basis: calc((100% - 60px) / 3);
@@ -17,7 +17,7 @@
   }
 }
 
-.work-caption {
+.work-items__caption {
   position: absolute;
   bottom: 0;
   left: 0;
