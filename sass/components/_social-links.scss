@@ -3,11 +3,11 @@
   justify-content: space-between;
 }
 
-.social-links-list {
+.social-links__list {
   display: flex;
 }
 
-.team-social-links {
+.social-links__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   }
 }
 
-.footer-social-links-list {
+.footer-social-links__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
