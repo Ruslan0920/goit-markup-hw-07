@@ -1,15 +1,15 @@
-.btn-list {
+.button-item {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.btn-item:not(:last-child) {
+.button-item__list:not(:last-child) {
   display: flex;
   margin-right: 8px;
 }
 
-.portfolio-btn {
+.button-item__portfolio-btn {
   padding: 6px 22px;
   font-family: var(--primary-font-family);
   font-weight: 500;
@@ -33,7 +33,7 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-  &.active {
+  &.button-item__portfolio-btn--active {
     background-color: var(--third-bcg-color);
     color: var(--fourth-text-color);
   }
